@@ -20,8 +20,8 @@ assertEqual(result1[1], "Labs"); // ensure second element is "Labs"
 // Test Case 2: Check the returned array elements of numbers
 const result2 = tail([1, 2, 3]);
 assertEqual(result2.length, 2); // ensure we get back two elements
-assertEqual(result2[0], 2); // ensure first element is "Lighthouse"
-assertEqual(result2[1], 3); // ensure second element is "Labs"
+assertEqual(result2[0], 2); // ensure first element is 2
+assertEqual(result2[1], 3); // ensure second element is 3
 
 // Test Case 3: An array with only one element should yield an empty array for its tail
 const result3 = tail(["Hello"]);
