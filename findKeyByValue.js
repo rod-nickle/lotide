@@ -7,15 +7,11 @@ const assertEqual = function(actual, expected) {
 };
 
 const findKeyByValue = function(object, value) {
-  let foundKey;
-
   for (let key in object) {
     if (object[key] === value) {
-      foundKey = key;
-      break;
+      return key;
     }
   }
-  return foundKey;
 };
 
 // Tests
