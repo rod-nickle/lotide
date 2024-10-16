@@ -23,10 +23,9 @@ const assertArraysEqual = function(actual, expected) {
 
 const middle = function(arr) {
   let output = [];
-  let middleElement = 0;
 
   if (arr.length > 2) {
-    middleElement = Math.floor(arr.length / 2);
+    let middleElement = Math.floor(arr.length / 2);
     if (arr.length % 2 === 0) {
       // Even number of elements. Use the middle two.
       output.push(arr[(middleElement - 1)]);
