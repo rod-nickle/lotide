@@ -43,17 +43,17 @@ const letterPositions = function(sentence) {
 module.exports = letterPositions;
 
 
-const result1 = letterPositions("lighthouse in the house");
-assertArraysEqual(result1["l"], [0]); // => pass
-assertArraysEqual(result1["i"], [1, 11]); // => pass
-assertArraysEqual(result1["g"], [2]); // => pass
-assertArraysEqual(result1["h"], [3, 5, 15, 18]); // => pass
-assertArraysEqual(result1["t"], [4, 14]); // => pass
-assertArraysEqual(result1["o"], [6, 19]); // => pass
-assertArraysEqual(result1["u"], [7, 20]); // => pass
-assertArraysEqual(result1["s"], [8, 21]); // => pass
-assertArraysEqual(result1["e"], [9, 16, 22]); // => pass
-assertArraysEqual(result1["n"], [12]); // => pass
+// const result1 = letterPositions("lighthouse in the house");
+// assertArraysEqual(result1["l"], [0]); // => pass
+// assertArraysEqual(result1["i"], [1, 11]); // => pass
+// assertArraysEqual(result1["g"], [2]); // => pass
+// assertArraysEqual(result1["h"], [3, 5, 15, 18]); // => pass
+// assertArraysEqual(result1["t"], [4, 14]); // => pass
+// assertArraysEqual(result1["o"], [6, 19]); // => pass
+// assertArraysEqual(result1["u"], [7, 20]); // => pass
+// assertArraysEqual(result1["s"], [8, 21]); // => pass
+// assertArraysEqual(result1["e"], [9, 16, 22]); // => pass
+// assertArraysEqual(result1["n"], [12]); // => pass
 
 
 

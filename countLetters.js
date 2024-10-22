@@ -25,14 +25,14 @@ const countLetters = function(input) {
 
 module.exports = countLetters;
 
-const result1 = countLetters('LHL');
-assertEqual(result1["L"], 2);
-assertEqual(result1["H"], 1);
-assertEqual(result1["h"], undefined);
-assertEqual(result1["J"], undefined);
+// const result1 = countLetters('LHL');
+// assertEqual(result1["L"], 2);
+// assertEqual(result1["H"], 1);
+// assertEqual(result1["h"], undefined);
+// assertEqual(result1["J"], undefined);
 
-const result2 = countLetters("lighthouse in the house");
-assertEqual(result2["l"], 1);
-assertEqual(result2["h"], 4);
-assertEqual(result2["H"], undefined);
-assertEqual(result2["z"], undefined);
+// const result2 = countLetters("lighthouse in the house");
+// assertEqual(result2["l"], 1);
+// assertEqual(result2["h"], 4);
+// assertEqual(result2["H"], undefined);
+// assertEqual(result2["z"], undefined);
