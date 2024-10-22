@@ -3,6 +3,10 @@
 // If the input array has an odd number of elements, the function returns the single middle element.
 // If the input array has two or fewer elements, the function returns an empty array.
 const middle = function(arr) {
+  if (!arr) {
+    return;
+  }
+  
   let output = [];
 
   if (arr.length > 2) {

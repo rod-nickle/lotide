@@ -10,19 +10,19 @@ describe("#head", () => {
     assert.strictEqual(head(['5']), '5'); 
   });
 
-  it("returns 'Hello for ['Hello', 'Lighthouse', 'Labs']", () => {
+  it("returns 'Hello' for ['Hello', 'Lighthouse', 'Labs']", () => {
     assert.strictEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello"); 
   });
 
-  it("returns 'Hi for ['Hi']", () => {
+  it("returns 'Hi' for ['Hi']", () => {
     assert.strictEqual(head(["Hi"]), "Hi"); 
   });
 
-  it("returns 'Undefined for [] (an empty array)", () => {
+  it("returns undefined for [] (an empty array)", () => {
     assert.strictEqual(head([]), undefined); 
   });
 
-  it("returns 'Undefined when no parameters are passed", () => {
+  it("returns undefined when no parameters are passed", () => {
     assert.strictEqual(head(), undefined); 
   });
 });
