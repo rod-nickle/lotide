@@ -1,20 +1,30 @@
-const assertEqual = require("../assertEqual");
+const assert = require('chai').assert;
 const head = require("../head")
 
-// These should pass
-assertEqual(head([5, 6, 7]), 5);
-assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
+describe("#head", () => {
+  it("returns 1 for [1, 2, 3]", () => {
+    assert.strictEqual(head([1, 2, 3]), 1);
+  });
 
-// These should fail
-assertEqual(head([5, 6, 7]), 6);
-assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Lighthouse");
+  it("returns '5' for ['5']", () => {
+    assert.strictEqual(head(['5']), '5'); 
+  });
 
-// Testing with one element in the array
-assertEqual(head([5]), 5);
-assertEqual(head([5]), 6);
-assertEqual(head(["Hello"]), "Hello");
-assertEqual(head(["Hello"]), "Lighthouse");
+  it("returns 'Hello for ['Hello', 'Lighthouse', 'Labs']", () => {
+    assert.strictEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello"); 
+  });
 
-// Testing with an empty array
-assertEqual(head([]), 5);
-assertEqual(head([]), "Hello");
+  it("returns 'Hi for ['Hi']", () => {
+    assert.strictEqual(head(["Hi"]), "Hi"); 
+  });
+
+  it("returns 'Undefined for [] (an empty array)", () => {
+    assert.strictEqual(head([]), undefined); 
+  });
+
+  it("returns 'Undefined when no parameters are passed", () => {
+    assert.strictEqual(head(), undefined); 
+  });
+});
+
+

@@ -1,5 +1,7 @@
-// Find the middle element of an array.
-// If an even number of elements, return the the middle two.
+// The middle function takes an array as input and returns a new array containing the middle element(s) of the input array.
+// If the input array has an even number of elements, the function returns the middle two elements.
+// If the input array has an odd number of elements, the function returns the single middle element.
+// If the input array has two or fewer elements, the function returns an empty array.
 const middle = function(arr) {
   let output = [];
 
