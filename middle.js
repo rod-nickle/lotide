@@ -24,4 +24,4 @@ const middle = function(arr) {
   return output;
 };
 
-module.exports = middle
+module.exports = middle;

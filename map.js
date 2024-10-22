@@ -31,6 +31,9 @@ const map = function(array, callback) {
 };
 
 
+module.exports = map;
+
+
 const words = ["ground", "control", "to", "major", "tom"];
 
 // First character of each word

@@ -40,9 +40,10 @@ const letterPositions = function(sentence) {
   return results;
 };
 
+module.exports = letterPositions;
+
+
 const result1 = letterPositions("lighthouse in the house");
-
-
 assertArraysEqual(result1["l"], [0]); // => pass
 assertArraysEqual(result1["i"], [1, 11]); // => pass
 assertArraysEqual(result1["g"], [2]); // => pass

@@ -19,6 +19,7 @@ const findKey = function(object, callback) {
   }
 };
 
+module.exports = findKey;
 
 // Find Stars === 2
 assertEqual(findKey(

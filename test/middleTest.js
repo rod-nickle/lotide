@@ -34,6 +34,12 @@ describe("#middle", () => {
   it('returns undefined for no parameters passed', () => {
     assert.deepEqual(middle(), undefined);
   });
+
+  it('does not alter the original array', () => {
+    const words = ["hello", "world", "lighthouse"];
+    middle(words);
+    assert.strictEqual(words.length, 3);
+  });
 });
 
 
