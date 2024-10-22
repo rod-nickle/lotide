@@ -1,8 +1,8 @@
 {
-  "name": "lotide",
+  "name": "@rod-nickle/lotide",
   "version": "1.0.0",
   "description": "",
-  "main": "assertArraysEqual.js",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/rod-nickle/lotide.git"
   },
-  "author": "",
+  "author": "Rod Nickle",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rod-nickle/lotide/issues"
